@@ -1,5 +1,8 @@
-# VS code
+[]# VS code
 .vscode/*
+
+# data folder
+.data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

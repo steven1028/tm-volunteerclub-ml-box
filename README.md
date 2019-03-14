@@ -15,7 +15,7 @@ To install dependencies on your exist Python 3 environment, choose one of the fo
     # pip3 install sklearn tensorflow opencv-python matplotlib kears keras_vggface
     ```
 2. Install on virtual environment:
-    1. Navigate to the source folder, e.g.,
+    1. Navigate to the root folder of source repository, e.g.,
         ```
         # cd ~/tm-volunteerclub-ml-box
         ```
@@ -26,14 +26,23 @@ To install dependencies on your exist Python 3 environment, choose one of the fo
     3. Construct virtual environment and activate
         ```
         # python3 -m venv ~/tm-volunteerclub-ml-box/.venv
-        # source .venv/bin./activate
+        # source .venv/bin/activate
         ```
     4. Install the dependencies as usual:
         ```
         (.venv) # pip3 install sklearn tensorflow opencv-python matplotlib kears keras_vggface 
         ```
+## Run the Sample Code
+1. Navigate to the root folder of source repository, e.g.,
+    ```
+    # cd ~/tm-volunteerclub-ml-box
+    ```
+2. Execute the sample code as following
+    ```
+    python3 samples/FaceRecognitionDefaultVGG.py
+    ```
 
-## Todo:
+## Todo
 ### Machine Learning Models
 1. Face recognition, including:
     - Default VGG Face, cam be viewed as Celebrity similarity comparison
